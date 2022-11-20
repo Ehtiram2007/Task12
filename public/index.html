@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <title>Form</title>
+  </head>
+  <body
+    style="
+      background-image: url(https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    "
+  >
+    <main>
+      <section id="register">
+        <h1>EVENT REGISTRATION FORM</h1>
+        <form action="about.html" method="post">
+          <label for="">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+          <label for="">Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+          <label for="">Phone</label>
+          <input type="tel" name="tel" required />
+          <h3>Are you an existing customer?</h3>
+          <label for="">yes</label>
+          <input type="radio" name="radio" id="login" />
+          <label for="">no</label>
+          <input type="radio" name="radio" id="sign_in" />
+
+          <button type="submit">REGISTER</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
